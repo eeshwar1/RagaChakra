@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65C26C8D2ABF7739003091CA /* PieSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C26C8C2ABF7739003091CA /* PieSegment.swift */; };
+		65C26C8F2AC0A21B003091CA /* ragas.json in Resources */ = {isa = PBXBuildFile; fileRef = 65C26C8E2AC0A21B003091CA /* ragas.json */; };
+		65C26C912AC0A2B1003091CA /* Raga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C26C902AC0A2B1003091CA /* Raga.swift */; };
+		65C26C932AC0A4F1003091CA /* ReadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C26C922AC0A4F1003091CA /* ReadData.swift */; };
+		65C26C952AC0B161003091CA /* RagaDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C26C942AC0B161003091CA /* RagaDetailsView.swift */; };
 		65F015C32ABE94660092D32D /* RagaChakraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F015C22ABE94660092D32D /* RagaChakraApp.swift */; };
 		65F015C52ABE94660092D32D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F015C42ABE94660092D32D /* ContentView.swift */; };
 		65F015C72ABE94670092D32D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F015C62ABE94670092D32D /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65C26C8C2ABF7739003091CA /* PieSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieSegment.swift; sourceTree = "<group>"; };
+		65C26C8E2AC0A21B003091CA /* ragas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ragas.json; sourceTree = "<group>"; };
+		65C26C902AC0A2B1003091CA /* Raga.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Raga.swift; sourceTree = "<group>"; };
+		65C26C922AC0A4F1003091CA /* ReadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadData.swift; sourceTree = "<group>"; };
+		65C26C942AC0B161003091CA /* RagaDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RagaDetailsView.swift; sourceTree = "<group>"; };
 		65F015BF2ABE94660092D32D /* RagaChakra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RagaChakra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F015C22ABE94660092D32D /* RagaChakraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RagaChakraApp.swift; sourceTree = "<group>"; };
 		65F015C42ABE94660092D32D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,9 +64,14 @@
 			children = (
 				65F015C22ABE94660092D32D /* RagaChakraApp.swift */,
 				65F015C42ABE94660092D32D /* ContentView.swift */,
+				65C26C922AC0A4F1003091CA /* ReadData.swift */,
+				65C26C8C2ABF7739003091CA /* PieSegment.swift */,
+				65C26C942AC0B161003091CA /* RagaDetailsView.swift */,
+				65C26C902AC0A2B1003091CA /* Raga.swift */,
 				65F015C62ABE94670092D32D /* Assets.xcassets */,
 				65F015CB2ABE94670092D32D /* RagaChakra.entitlements */,
 				65F015C82ABE94670092D32D /* Preview Content */,
+				65C26C8E2AC0A21B003091CA /* ragas.json */,
 			);
 			path = RagaChakra;
 			sourceTree = "<group>";
@@ -128,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65F015CA2ABE94670092D32D /* Preview Assets.xcassets in Resources */,
+				65C26C8F2AC0A21B003091CA /* ragas.json in Resources */,
 				65F015C72ABE94670092D32D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65C26C912AC0A2B1003091CA /* Raga.swift in Sources */,
+				65C26C8D2ABF7739003091CA /* PieSegment.swift in Sources */,
 				65F015C52ABE94660092D32D /* ContentView.swift in Sources */,
+				65C26C932AC0A4F1003091CA /* ReadData.swift in Sources */,
+				65C26C952AC0B161003091CA /* RagaDetailsView.swift in Sources */,
 				65F015C32ABE94660092D32D /* RagaChakraApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
