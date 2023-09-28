@@ -16,6 +16,7 @@
 		65E9FC782AC4AF04004C8E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E9FC772AC4AF04004C8E57 /* AppDelegate.swift */; };
 		65E9FC7A2AC5F56C004C8E57 /* RagaPie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E9FC792AC5F56C004C8E57 /* RagaPie.swift */; };
 		65E9FC7C2AC60718004C8E57 /* PieSegmentTruncated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E9FC7B2AC60718004C8E57 /* PieSegmentTruncated.swift */; };
+		65E9FC7F2AC61488004C8E57 /* RagaChakra1.png in Resources */ = {isa = PBXBuildFile; fileRef = 65E9FC7E2AC61488004C8E57 /* RagaChakra1.png */; };
 		65F015C32ABE94660092D32D /* RagaChakraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F015C22ABE94660092D32D /* RagaChakraApp.swift */; };
 		65F015C52ABE94660092D32D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F015C42ABE94660092D32D /* ContentView.swift */; };
 		65F015C72ABE94670092D32D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F015C62ABE94670092D32D /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		65E9FC772AC4AF04004C8E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65E9FC792AC5F56C004C8E57 /* RagaPie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RagaPie.swift; sourceTree = "<group>"; };
 		65E9FC7B2AC60718004C8E57 /* PieSegmentTruncated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieSegmentTruncated.swift; sourceTree = "<group>"; };
+		65E9FC7E2AC61488004C8E57 /* RagaChakra1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RagaChakra1.png; sourceTree = "<group>"; };
 		65F015BF2ABE94660092D32D /* RagaChakra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RagaChakra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F015C22ABE94660092D32D /* RagaChakraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RagaChakraApp.swift; sourceTree = "<group>"; };
 		65F015C42ABE94660092D32D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65E9FC7D2AC6145D004C8E57 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				65E9FC7E2AC61488004C8E57 /* RagaChakra1.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		65F015B62ABE94660092D32D = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +94,7 @@
 				65F015CB2ABE94670092D32D /* RagaChakra.entitlements */,
 				65F015C82ABE94670092D32D /* Preview Content */,
 				65C26C8E2AC0A21B003091CA /* ragas.json */,
+				65E9FC7D2AC6145D004C8E57 /* Screenshots */,
 			);
 			path = RagaChakra;
 			sourceTree = "<group>";
@@ -154,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E9FC7F2AC61488004C8E57 /* RagaChakra1.png in Resources */,
 				65F015CA2ABE94670092D32D /* Preview Assets.xcassets in Resources */,
 				65C26C8F2AC0A21B003091CA /* ragas.json in Resources */,
 				65F015C72ABE94670092D32D /* Assets.xcassets in Resources */,
