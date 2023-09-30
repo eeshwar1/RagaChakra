@@ -22,6 +22,10 @@ class VUAudioPlayer: NSObject, AVAudioPlayerDelegate {
     
     var notesData: [String: Data] = [:]
     
+    var playingAction: (String) -> () = {_ in }
+    var clearAction: () -> () = {}
+    var doneAction: () -> () = {}
+    
     override init() {
         
         super.init()
@@ -44,7 +48,6 @@ class VUAudioPlayer: NSObject, AVAudioPlayerDelegate {
                     do {
                         let player = try AVAudioPlayer(data: noteData)
                         self.players[noteName] = player
-                        player.prepareToPlay()
                     }
                     catch {
                         print("Could not create player for: \(noteName)")
@@ -79,12 +82,16 @@ class VUAudioPlayer: NSObject, AVAudioPlayerDelegate {
     
     @objc func donePlaying(notification: NSNotification) {
          
-         
-     }
+        self.clearAction()
+        self.doneAction()
+        
+    }
+    
     @objc func playNoteNotification(notification: NSNotification) {
         
          if let note = notification.userInfo?["note"] as? String {
         
+             self.playingAction(note)
              playNote(note)
              
          }
@@ -104,6 +111,7 @@ class VUAudioPlayer: NSObject, AVAudioPlayerDelegate {
                 // player is not in use, so use that one
                 player.prepareToPlay()
                 player.play()
+                
             } else {
                 
                 // player is in use, create a new, duplicate player and use that instead

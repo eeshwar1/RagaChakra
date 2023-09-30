@@ -35,6 +35,7 @@
 		65E9FCCF2AC87DE8004C8E57 /* M2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E9FC902AC61628004C8E57 /* M2.mp3 */; };
 		65E9FCD12AC88A66004C8E57 /* VUAudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E9FCD02AC88A66004C8E57 /* VUAudioPlayerView.swift */; };
 		65E9FCD32AC8B40D004C8E57 /* N1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E9FCD22AC8B40C004C8E57 /* N1.mp3 */; };
+		65E9FCD52AC8D043004C8E57 /* RagaChakra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E9FCD42AC8D043004C8E57 /* RagaChakra.swift */; };
 		65F015C32ABE94660092D32D /* RagaChakraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F015C22ABE94660092D32D /* RagaChakraApp.swift */; };
 		65F015C52ABE94660092D32D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F015C42ABE94660092D32D /* ContentView.swift */; };
 		65F015C72ABE94670092D32D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F015C62ABE94670092D32D /* Assets.xcassets */; };
@@ -71,6 +72,7 @@
 		65E9FCBE2AC877BC004C8E57 /* VUAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VUAudioPlayer.swift; sourceTree = "<group>"; };
 		65E9FCD02AC88A66004C8E57 /* VUAudioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VUAudioPlayerView.swift; sourceTree = "<group>"; };
 		65E9FCD22AC8B40C004C8E57 /* N1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = N1.mp3; sourceTree = "<group>"; };
+		65E9FCD42AC8D043004C8E57 /* RagaChakra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RagaChakra.swift; sourceTree = "<group>"; };
 		65F015BF2ABE94660092D32D /* RagaChakra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RagaChakra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F015C22ABE94660092D32D /* RagaChakraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RagaChakraApp.swift; sourceTree = "<group>"; };
 		65F015C42ABE94660092D32D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 			children = (
 				65F015C22ABE94660092D32D /* RagaChakraApp.swift */,
 				65F015C42ABE94660092D32D /* ContentView.swift */,
+				65E9FCD42AC8D043004C8E57 /* RagaChakra.swift */,
 				65E9FCBE2AC877BC004C8E57 /* VUAudioPlayer.swift */,
 				65E9FCD02AC88A66004C8E57 /* VUAudioPlayerView.swift */,
 				65E9FC792AC5F56C004C8E57 /* RagaPie.swift */,
@@ -263,6 +266,7 @@
 				65E9FC762AC3D6A0004C8E57 /* RagaView.swift in Sources */,
 				65E9FCD12AC88A66004C8E57 /* VUAudioPlayerView.swift in Sources */,
 				65E9FC7A2AC5F56C004C8E57 /* RagaPie.swift in Sources */,
+				65E9FCD52AC8D043004C8E57 /* RagaChakra.swift in Sources */,
 				65C26C912AC0A2B1003091CA /* Raga.swift in Sources */,
 				65C26C8D2ABF7739003091CA /* PieSegment.swift in Sources */,
 				65E9FC7C2AC60718004C8E57 /* PieSegmentTruncated.swift in Sources */,
