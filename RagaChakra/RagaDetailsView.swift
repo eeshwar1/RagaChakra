@@ -21,7 +21,7 @@ struct RagaDetailsView: View {
             VStack {
                 VStack {
                     
-                       RagaView(raga: raga)
+                    RagaView(raga: raga)
                     
                 }
                 .padding(10)
