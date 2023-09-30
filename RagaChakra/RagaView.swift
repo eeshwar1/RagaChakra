@@ -12,10 +12,6 @@ struct RagaView: View {
     var raga: Raga?
     var backgroundColor: Color = .green
     
-    // var action: ([String]) -> ()
-    
- 
-    
     var body: some View {
         
         if let raga = raga {
@@ -38,7 +34,7 @@ struct RagaView: View {
                 VUAudioPlayerView(notes: raga.allNotes)
                 
             }
-            .padding(5)
+            .padding(20)
             .foregroundStyle(.white)
             .background(RoundedRectangle(cornerRadius: 5).foregroundColor(backgroundColor))
             .clipShape(RoundedRectangle(cornerRadius: 5))

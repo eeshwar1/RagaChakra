@@ -22,31 +22,12 @@ struct ContentView: View {
         GeometryReader { geometry in
             
             HStack(spacing: 20) {
-                ZStack {
-                    
-                    ForEach(Array(melaRagas.enumerated()), id:\.offset) { index, raga in
-                        
-                        RagaPieSegment(angle: .degrees(Double( index * 5)), raga: raga, color: index%2 == 0 ? .green : .brown)
-                            .offset(x: 0, y: 0)
-                            .onTapGesture {
-                                
-                                self.raga =  raga
-                                self.janyaRagas = Array(ragas.filter( { $0.mela_raga == raga.name } ).map( {$0} ))
-                                self.selectedRaga = nil
-                            }
-                            
-                            
-                        
-                    }
-        
-                }
-                .frame(width: geometry.size.width/4, height: geometry.size.width/4, alignment: .center)
-                .padding(10)
-                .shadow(color: Color.black, radius: 1, x: 1, y: -1)
                 
-                
-                
-            
+                RagaChakra(melaRagas: melaRagas, action: self.ragaAction(raga:))
+                    .frame(width: geometry.size.width/4, height: geometry.size.width/4, alignment: .center)
+                    .padding(10)
+                    .shadow(color: Color.black, radius: 1, x: 1, y: -1)
+    
                 RagaDetailsView(raga: self.$raga, janyaRagas: self.janyaRagas, selectedRaga: $selectedRaga)
                     .frame(width: geometry.size.width/4, height: geometry.size.height, alignment: .center)
                     .offset(x: geometry.size.width/5, y: 0)
@@ -65,6 +46,14 @@ struct ContentView: View {
             }
             .frame(width: geometry.size.width, height: geometry.size.height, alignment: .leading)
         }
+    }
+    
+    func ragaAction(raga: Raga) {
+        
+        self.raga =  raga
+        self.janyaRagas = Array(ragas.filter( { $0.mela_raga == raga.name } ).map( {$0} ))
+        self.selectedRaga = nil
+        
     }
 }
 
