@@ -1790,8 +1790,8 @@
 		"mela_raga": "Jhankāradhvani",
 		"mela_num": "",
 		"link": "",
-		"arohana": "S R2 G2 M1 P D1 N1 D1 P D1 SS R2 G2 M1 P D1 SS R2 G2 M1 P D1 N1 D1 SS R2 G2 M1 P D1 N1 D1 SS G2 R2 G M1 P D1 N1 D1 SS R2 G2 M1 P D1 N1 D1 S",
-		"avarohana": "S N1 D1 P M1 G2 R2 SS N1 D1 P M1 G2 R2 SS D1 P M1 G2 R2 SS N1 D1 P M1 G2 R2 SS N1 D1 P M1 G2 R2 G R2 SD1 N1 D1 P M1 G2 R2 S"
+		"arohana": "S R2 G2 M1 P D1 N1 D1 P D1 S S R2 G2 M1 P D1 S S R2 G2 M1 P D1 N1 D1 S S R2 G2 M1 P D1 N1 D1 S S G2 R2 G M1 P D1 N1 D1 S S R2 G2 M1 P D1 N1 D1 S",
+		"avarohana": "S N1 D1 P M1 G2 R2 S S N1 D1 P M1 G2 R2 S S D1 P M1 G2 R2 S S N1 D1 P M1 G2 R2 S S N1 D1 P M1 G2 R2 G R2 S D1 N1 D1 P M1 G2 R2 S"
 	},
 	{
 		"name": "Bhārati",
@@ -1830,8 +1830,8 @@
 		"mela_raga": "Jhankāradhvani",
 		"mela_num": "",
 		"link": "",
-		"arohana": "S G2 R2 M1 P SS G2 R2 G2 R2 M1 P SS R2 G2 R2 M1 P SS R2 G2 M1 P SS G2 R2 G2 M1 P S",
-		"avarohana": "S N1 D1 P M1 G2 R2 SS N1 D1 P M1 G2 R2 SS N1 D1 P M1 G2 R2 SS N1 D1 P M1 G2 R2 SS N1 D1 P M1 G2 R2 S"
+		"arohana": "S G2 R2 M1 P S S G2 R2 G2 R2 M1 P S S R2 G2 R2 M1 P S S R2 G2 M1 P S S G2 R2 G2 M1 P S",
+		"avarohana": "S N1 D1 P M1 G2 R2"
 	},
 	{
 		"name": "Natabhairavi",
@@ -2094,8 +2094,8 @@
 		"mela_raga": "Natabhairavi",
 		"mela_num": "",
 		"link": "",
-		"arohana": "S R2 G2 M1 N2 N2 SS R2 G2 M1 N2 Ṡ",
-		"avarohana": "Ṡ N2 P M1 G2 R2 SS N2 P M1 G2 R2 S"
+		"arohana": "S R2 G2 M1 N2 N2 S S R2 G2 M1 N2 Ṡ",
+		"avarohana": "Ṡ N2 P M1 G2 R2 S S N2 P M1 G2 R2 S"
 	},
 	{
 		"name": "Rājarājeshwari",
@@ -2607,8 +2607,8 @@
 		"mela_raga": "Kharaharapriya",
 		"mela_num": "",
 		"link": "",
-		"arohana": "S R2 G2 M1 P N2 D2 N2 SS R2 G3 M1 P N3 D2 M1 P N3 Ṡ",
-		"avarohana": "Ṡ N2 D1 P M1 G2 R2 SS N3 S P D2 M1 P G3 R2 S"
+		"arohana": "S R2 G2 M1 P N2 D2 N2 S S R2 G3 M1 P N3 D2 M1 P N3 Ṡ",
+		"avarohana": "Ṡ N2 D1 P M1 G2 R2 S S N3 S P D2 M1 P G3 R2 S"
 	},
 	{
 		"name": "Jatādhāri",
@@ -3240,8 +3240,8 @@
 		"mela_raga": "Gowri Manohari",
 		"mela_num": "",
 		"link": "",
-		"arohana": "S R2 G2 S R2 M1 P D2 SS R2 G1 G2 S R2 M1 M1 P D2 D2 Ṡ",
-		"avarohana": "Ṡ N3 D2 P M1 G2 R2 SS N3 D2 P M1 G1 G2 R2 S"
+		"arohana": "S R2 G2 S R2 M1 P D2 S S R2 G1 G2 S R2 M1 M1 P D2 D2 Ṡ",
+		"avarohana": "Ṡ N3 D2 P M1 G2 R2 S S N3 D2 P M1 G1 G2 R2 S"
 	},
 	{
 		"name": "Gowrishankar",
@@ -3297,8 +3297,8 @@
 		"mela_raga": "Gowri Manohari",
 		"mela_num": "",
 		"link": "",
-		"arohana": "S G2 M1 D2 N3 SS R2 M1 P D2 SS R2 G2 M1 P D2 SS G2 R2 M1 P D2 SS R2 G2 S R2 M1 P D2 SS R2 M1 P D2 N3 S",
-		"avarohana": "S N3 D2 P M1 G2 R2 SS N3 D2 P M1 G2 R2 SS N3 D2 P M1 G2 SS N3 D2 P M1 G2 R2 SS N3 D2 P M1 G2 R2 SS N3 D2 P M1 G2 R2 S"
+		"arohana": "S G2 M1 D2 N3 S S R2 M1 P D2 S S R2 G2 M1 P D2 S S G2 R2 M1 P D2 S S R2 G2 S R2 M1 P D2 S S R2 M1 P D2 N3 S",
+		"avarohana": "S N3 D2 P M1 G2 R2 S S N3 D2 P M1 G2 R2 S S N3 D2 P M1 G2 S S N3 D2 P M1 G2 R2 S S N3 D2 P M1 G2 R2 S S N3 D2 P M1 G2 R2 S"
 	},
 	{
 		"name": "Varunapriyaa",
@@ -3369,8 +3369,8 @@
 		"mela_raga": "Chārukeshi",
 		"mela_num": "",
 		"link": "",
-		"arohana": "S R2 G3 P D1 N2 D1 SS R2 G3 P D1 N2 D1 P D1 S",
-		"avarohana": "S D1 P M1 G3 R2 SS D1 P G3 R2 S G3 M1 R2 G3 S"
+		"arohana": "S R2 G3 P D1 N2 D1 S S R2 G3 P D1 N2 D1 P D1 S",
+		"avarohana": "S D1 P M1 G3 R2 S S D1 P G3 R2 S G3 M1 R2 G3 S"
 	},
 	{
 		"name": "Chirswaroopi",
@@ -3665,8 +3665,8 @@
 		"mela_raga": "Harikāmbhoji",
 		"mela_num": "",
 		"link": "",
-		"arohana": "S G3 M1 D2 N2 SS G3 M1 D2 N2 S",
-		"avarohana": "S N2 D2 M1 P G3 R2 SS N2 D2 M1 G3 R2 S"
+		"arohana": "S G3 M1 D2 N2 S S G3 M1 D2 N2 S",
+		"avarohana": "S N2 D2 M1 P G3 R2 S S N2 D2 M1 G3 R2 S"
 	},
 	{
 		"name": "Dwijāvanthi",
@@ -4025,8 +4025,8 @@
 		"mela_raga": "Harikāmbhoji",
 		"mela_num": "",
 		"link": "",
-		"arohana": "S R2 G3 M1 N2 D2 N2 P D2 N2 SS R2 G3 M1 D2 N2 SS R2 G3 M1 N2 D2 N2 P D2 N2 Ṡ",
-		"avarohana": "Ṡ N2 D2 M1 G3 M1 P G3 R2 SS N2 D2 M1 G3 SS N2 D2 M1 G3 M1 P M1 G3 R2 S"
+		"arohana": "S R2 G3 M1 N2 D2 N2 P D2 N2 S S R2 G3 M1 D2 N2 S S R2 G3 M1 N2 D2 N2 P D2 N2 Ṡ",
+		"avarohana": "Ṡ N2 D2 M1 G3 M1 P G3 R2 S S N2 D2 M1 G3 S S N 2 D2 M1 G3 M1 P M1 G3 R2 S"
 	},
 	{
 		"name": "Nāttai Nārāyani",
@@ -4153,8 +4153,8 @@
 		"mela_raga": "Harikāmbhoji",
 		"mela_num": "",
 		"link": "",
-		"arohana": "S G3 M1 D2 N3 SS G3 M1 D2 N3 SS G3 M1 D2 N3 Ṡ",
-		"avarohana": "Ṡ N2 D2 M1 G3 R2 SS N3 D2 M1 G3 R2 SS N3 D2 N3 D2 M1 G3 R2 S"
+		"arohana": "S G3 M1 D2 N3 S S G3 M1 D2 N3 S S G3 M1 D2 N3 Ṡ",
+		"avarohana": "Ṡ N2 D2 M1 G3 R2 S S N3 D2 M1 G3 R2 S S N3 D2 N3 D2 M1 G3 R2 S"
 	},
 	{
 		"name": "Ravi Chandrikā",
@@ -4249,8 +4249,8 @@
 		"mela_raga": "Harikāmbhoji",
 		"mela_num": "",
 		"link": "",
-		"arohana": "S R2 M1 P D2 SS R2 G3 S R2 P M1 D2 D2 S",
-		"avarohana": "S D2 P M1 G3 R2 SS D2 P M1 G3 R2 S"
+		"arohana": "S R2 M1 P D2 S S R2 G3 S R2 P M1 D2 D2 S",
+		"avarohana": "S D2 P M1 G3 R2 S S D2 P M1 G3 R2 S"
 	},
 	{
 		"name": "Simhavikrama",
@@ -4425,8 +4425,8 @@
 		"mela_raga": "Dheera Shankarābharanam",
 		"mela_num": "",
 		"link": "https://en.wikipedia.org/wiki/Arabhi",
-		"arohana": "S R2 M1 P D2 SS R2 M1 P D2 Ṡ",
-		"avarohana": "Ṡ N3 D2 P M1 G3 R2 SS D2 P M1 G3 R2 S"
+		"arohana": "S R2 M1 P D2 S S R2 M1 P D2 Ṡ",
+		"avarohana": "Ṡ N3 D2 P M1 G3 R2 S S D2 P M1 G3 R2 S"
 	},
 	{
 		"name": "Atāna",
@@ -7222,7 +7222,7 @@
 		"mela_num": "",
 		"link": "https://en.wikipedia.org/w/index.php?title=Hameer_Kaly%C4%81ni&action=edit&redlink=1",
 		"arohana": "S P M2 P D2 N3 Ṡ S R2 S P M2 P D2 N3 Ṡ S R2 S P M2 N3 D2 S N3 Ṡ S R2 G3 M2 P D2 N3 P D2 P Ṡ S P M2 P D2 N3 Ṡ",
-		"avarohana": "Ṡ N3 D2 P M2 M1 G3 P M1 R2 Ṡ S N3 D2 P M2 G3 M1 G3 R2 Ṡ S N3 D2 P M2 G M1 R2 SS N3 D2 P G3 M1 G3 R2 Ṡ S N3 D2 P G3 M1 G3 R2 S"
+		"avarohana": "Ṡ N3 D2 P M2 M1 G3 P M1 R2 Ṡ S N3 D2 P M2 G3 M1 G3 R2 Ṡ S N3 D2 P M2 G M1 R2 S S N3 D2 P G3 M1 G3 R2 Ṡ S N3 D2 P G3 M1 G3 R2 S"
 	},
 	{
 		"name": "Hamsakalyāni",
