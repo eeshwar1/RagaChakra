@@ -12,13 +12,13 @@ class VUAudioPlayer: NSObject, AVAudioPlayerDelegate {
     var players = [String: AVAudioPlayer]()
     var duplicatePlayers = [AVAudioPlayer]()
     
-    var noteNames = [ "S", "Ṡ", "R1",
+    var noteNames = [ "S",  "Ṡ",  "R1",
                       "R2", "R3",
                       "G1", "G2", "G3",
                       "M1", "M2",
                       "P",
                       "D1", "D2", "D3",
-                      "N2", "N3"]
+                      "N1", "N2", "N3"]
     
     var notesData: [String: Data] = [:]
     
