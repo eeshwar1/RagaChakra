@@ -12,6 +12,10 @@ struct RagaView: View {
     var raga: Raga?
     var backgroundColor: Color = .green
     
+    // var action: ([String]) -> ()
+    
+ 
+    
     var body: some View {
         
         if let raga = raga {
@@ -30,6 +34,9 @@ struct RagaView: View {
                 
                 Text("\(raga.arohana)")
                 Text("\(raga.avarohana)")
+     
+                VUAudioPlayerView(notes: raga.allNotes)
+                
             }
             .padding(5)
             .foregroundStyle(.white)

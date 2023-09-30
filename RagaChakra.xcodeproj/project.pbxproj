@@ -16,7 +16,24 @@
 		65E9FC782AC4AF04004C8E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E9FC772AC4AF04004C8E57 /* AppDelegate.swift */; };
 		65E9FC7A2AC5F56C004C8E57 /* RagaPie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E9FC792AC5F56C004C8E57 /* RagaPie.swift */; };
 		65E9FC7C2AC60718004C8E57 /* PieSegmentTruncated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E9FC7B2AC60718004C8E57 /* PieSegmentTruncated.swift */; };
-		65E9FC7F2AC61488004C8E57 /* RagaChakra1.png in Resources */ = {isa = PBXBuildFile; fileRef = 65E9FC7E2AC61488004C8E57 /* RagaChakra1.png */; };
+		65E9FCBF2AC877BC004C8E57 /* VUAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E9FCBE2AC877BC004C8E57 /* VUAudioPlayer.swift */; };
+		65E9FCC02AC87DE8004C8E57 /* N3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E9FC812AC61628004C8E57 /* N3.mp3 */; };
+		65E9FCC12AC87DE8004C8E57 /* P.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E9FC822AC61628004C8E57 /* P.mp3 */; };
+		65E9FCC22AC87DE8004C8E57 /* N2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E9FC832AC61628004C8E57 /* N2.mp3 */; };
+		65E9FCC32AC87DE8004C8E57 /* S.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E9FC842AC61628004C8E57 /* S.mp3 */; };
+		65E9FCC42AC87DE8004C8E57 /* D3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E9FC852AC61628004C8E57 /* D3.mp3 */; };
+		65E9FCC52AC87DE8004C8E57 /* D2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E9FC862AC61628004C8E57 /* D2.mp3 */; };
+		65E9FCC62AC87DE8004C8E57 /* Ṡ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E9FC872AC61628004C8E57 /* Ṡ.mp3 */; };
+		65E9FCC72AC87DE8004C8E57 /* D1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E9FC882AC61628004C8E57 /* D1.mp3 */; };
+		65E9FCC82AC87DE8004C8E57 /* R1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E9FC892AC61628004C8E57 /* R1.mp3 */; };
+		65E9FCC92AC87DE8004C8E57 /* G1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E9FC8A2AC61628004C8E57 /* G1.mp3 */; };
+		65E9FCCA2AC87DE8004C8E57 /* R2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E9FC8B2AC61628004C8E57 /* R2.mp3 */; };
+		65E9FCCB2AC87DE8004C8E57 /* G3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E9FC8C2AC61628004C8E57 /* G3.mp3 */; };
+		65E9FCCC2AC87DE8004C8E57 /* G2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E9FC8D2AC61628004C8E57 /* G2.mp3 */; };
+		65E9FCCD2AC87DE8004C8E57 /* R3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E9FC8E2AC61628004C8E57 /* R3.mp3 */; };
+		65E9FCCE2AC87DE8004C8E57 /* M1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E9FC8F2AC61628004C8E57 /* M1.mp3 */; };
+		65E9FCCF2AC87DE8004C8E57 /* M2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E9FC902AC61628004C8E57 /* M2.mp3 */; };
+		65E9FCD12AC88A66004C8E57 /* VUAudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E9FCD02AC88A66004C8E57 /* VUAudioPlayerView.swift */; };
 		65F015C32ABE94660092D32D /* RagaChakraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F015C22ABE94660092D32D /* RagaChakraApp.swift */; };
 		65F015C52ABE94660092D32D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F015C42ABE94660092D32D /* ContentView.swift */; };
 		65F015C72ABE94670092D32D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F015C62ABE94670092D32D /* Assets.xcassets */; };
@@ -34,6 +51,24 @@
 		65E9FC792AC5F56C004C8E57 /* RagaPie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RagaPie.swift; sourceTree = "<group>"; };
 		65E9FC7B2AC60718004C8E57 /* PieSegmentTruncated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieSegmentTruncated.swift; sourceTree = "<group>"; };
 		65E9FC7E2AC61488004C8E57 /* RagaChakra1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RagaChakra1.png; sourceTree = "<group>"; };
+		65E9FC812AC61628004C8E57 /* N3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = N3.mp3; sourceTree = "<group>"; };
+		65E9FC822AC61628004C8E57 /* P.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = P.mp3; sourceTree = "<group>"; };
+		65E9FC832AC61628004C8E57 /* N2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = N2.mp3; sourceTree = "<group>"; };
+		65E9FC842AC61628004C8E57 /* S.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = S.mp3; sourceTree = "<group>"; };
+		65E9FC852AC61628004C8E57 /* D3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D3.mp3; sourceTree = "<group>"; };
+		65E9FC862AC61628004C8E57 /* D2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D2.mp3; sourceTree = "<group>"; };
+		65E9FC872AC61628004C8E57 /* Ṡ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ṡ.mp3"; sourceTree = "<group>"; };
+		65E9FC882AC61628004C8E57 /* D1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D1.mp3; sourceTree = "<group>"; };
+		65E9FC892AC61628004C8E57 /* R1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = R1.mp3; sourceTree = "<group>"; };
+		65E9FC8A2AC61628004C8E57 /* G1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = G1.mp3; sourceTree = "<group>"; };
+		65E9FC8B2AC61628004C8E57 /* R2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = R2.mp3; sourceTree = "<group>"; };
+		65E9FC8C2AC61628004C8E57 /* G3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = G3.mp3; sourceTree = "<group>"; };
+		65E9FC8D2AC61628004C8E57 /* G2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = G2.mp3; sourceTree = "<group>"; };
+		65E9FC8E2AC61628004C8E57 /* R3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = R3.mp3; sourceTree = "<group>"; };
+		65E9FC8F2AC61628004C8E57 /* M1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = M1.mp3; sourceTree = "<group>"; };
+		65E9FC902AC61628004C8E57 /* M2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = M2.mp3; sourceTree = "<group>"; };
+		65E9FCBE2AC877BC004C8E57 /* VUAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VUAudioPlayer.swift; sourceTree = "<group>"; };
+		65E9FCD02AC88A66004C8E57 /* VUAudioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VUAudioPlayerView.swift; sourceTree = "<group>"; };
 		65F015BF2ABE94660092D32D /* RagaChakra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RagaChakra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F015C22ABE94660092D32D /* RagaChakraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RagaChakraApp.swift; sourceTree = "<group>"; };
 		65F015C42ABE94660092D32D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +96,29 @@
 			path = Screenshots;
 			sourceTree = "<group>";
 		};
+		65E9FC802AC61628004C8E57 /* Carnatic */ = {
+			isa = PBXGroup;
+			children = (
+				65E9FC812AC61628004C8E57 /* N3.mp3 */,
+				65E9FC822AC61628004C8E57 /* P.mp3 */,
+				65E9FC832AC61628004C8E57 /* N2.mp3 */,
+				65E9FC842AC61628004C8E57 /* S.mp3 */,
+				65E9FC852AC61628004C8E57 /* D3.mp3 */,
+				65E9FC862AC61628004C8E57 /* D2.mp3 */,
+				65E9FC872AC61628004C8E57 /* Ṡ.mp3 */,
+				65E9FC882AC61628004C8E57 /* D1.mp3 */,
+				65E9FC892AC61628004C8E57 /* R1.mp3 */,
+				65E9FC8A2AC61628004C8E57 /* G1.mp3 */,
+				65E9FC8B2AC61628004C8E57 /* R2.mp3 */,
+				65E9FC8C2AC61628004C8E57 /* G3.mp3 */,
+				65E9FC8D2AC61628004C8E57 /* G2.mp3 */,
+				65E9FC8E2AC61628004C8E57 /* R3.mp3 */,
+				65E9FC8F2AC61628004C8E57 /* M1.mp3 */,
+				65E9FC902AC61628004C8E57 /* M2.mp3 */,
+			);
+			path = Carnatic;
+			sourceTree = "<group>";
+		};
 		65F015B62ABE94660092D32D = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +140,8 @@
 			children = (
 				65F015C22ABE94660092D32D /* RagaChakraApp.swift */,
 				65F015C42ABE94660092D32D /* ContentView.swift */,
+				65E9FCBE2AC877BC004C8E57 /* VUAudioPlayer.swift */,
+				65E9FCD02AC88A66004C8E57 /* VUAudioPlayerView.swift */,
 				65E9FC792AC5F56C004C8E57 /* RagaPie.swift */,
 				65E9FC772AC4AF04004C8E57 /* AppDelegate.swift */,
 				65E9FC752AC3D6A0004C8E57 /* RagaView.swift */,
@@ -90,6 +150,7 @@
 				65C26C8C2ABF7739003091CA /* PieSegment.swift */,
 				65E9FC7B2AC60718004C8E57 /* PieSegmentTruncated.swift */,
 				65C26C902AC0A2B1003091CA /* Raga.swift */,
+				65E9FC802AC61628004C8E57 /* Carnatic */,
 				65F015C62ABE94670092D32D /* Assets.xcassets */,
 				65F015CB2ABE94670092D32D /* RagaChakra.entitlements */,
 				65F015C82ABE94670092D32D /* Preview Content */,
@@ -165,7 +226,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65E9FC7F2AC61488004C8E57 /* RagaChakra1.png in Resources */,
+				65E9FCC02AC87DE8004C8E57 /* N3.mp3 in Resources */,
+				65E9FCC12AC87DE8004C8E57 /* P.mp3 in Resources */,
+				65E9FCC22AC87DE8004C8E57 /* N2.mp3 in Resources */,
+				65E9FCC32AC87DE8004C8E57 /* S.mp3 in Resources */,
+				65E9FCC42AC87DE8004C8E57 /* D3.mp3 in Resources */,
+				65E9FCC52AC87DE8004C8E57 /* D2.mp3 in Resources */,
+				65E9FCC62AC87DE8004C8E57 /* Ṡ.mp3 in Resources */,
+				65E9FCC72AC87DE8004C8E57 /* D1.mp3 in Resources */,
+				65E9FCC82AC87DE8004C8E57 /* R1.mp3 in Resources */,
+				65E9FCC92AC87DE8004C8E57 /* G1.mp3 in Resources */,
+				65E9FCCA2AC87DE8004C8E57 /* R2.mp3 in Resources */,
+				65E9FCCB2AC87DE8004C8E57 /* G3.mp3 in Resources */,
+				65E9FCCC2AC87DE8004C8E57 /* G2.mp3 in Resources */,
+				65E9FCCD2AC87DE8004C8E57 /* R3.mp3 in Resources */,
+				65E9FCCE2AC87DE8004C8E57 /* M1.mp3 in Resources */,
+				65E9FCCF2AC87DE8004C8E57 /* M2.mp3 in Resources */,
 				65F015CA2ABE94670092D32D /* Preview Assets.xcassets in Resources */,
 				65C26C8F2AC0A21B003091CA /* ragas.json in Resources */,
 				65F015C72ABE94670092D32D /* Assets.xcassets in Resources */,
@@ -181,12 +257,14 @@
 			files = (
 				65E9FC782AC4AF04004C8E57 /* AppDelegate.swift in Sources */,
 				65E9FC762AC3D6A0004C8E57 /* RagaView.swift in Sources */,
+				65E9FCD12AC88A66004C8E57 /* VUAudioPlayerView.swift in Sources */,
 				65E9FC7A2AC5F56C004C8E57 /* RagaPie.swift in Sources */,
 				65C26C912AC0A2B1003091CA /* Raga.swift in Sources */,
 				65C26C8D2ABF7739003091CA /* PieSegment.swift in Sources */,
 				65E9FC7C2AC60718004C8E57 /* PieSegmentTruncated.swift in Sources */,
 				65F015C52ABE94660092D32D /* ContentView.swift in Sources */,
 				65C26C932AC0A4F1003091CA /* ReadData.swift in Sources */,
+				65E9FCBF2AC877BC004C8E57 /* VUAudioPlayer.swift in Sources */,
 				65C26C952AC0B161003091CA /* RagaDetailsView.swift in Sources */,
 				65F015C32ABE94660092D32D /* RagaChakraApp.swift in Sources */,
 			);

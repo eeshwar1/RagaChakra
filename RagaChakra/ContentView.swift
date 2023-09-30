@@ -42,7 +42,7 @@ struct ContentView: View {
                 }
                 .frame(width: geometry.size.width/4, height: geometry.size.width/4, alignment: .center)
                 .padding(10)
-                .shadow(color: Color.black, radius: 2, x: 2, y: -2)
+                .shadow(color: Color.black, radius: 1, x: 1, y: -1)
                 
                 
                 
@@ -54,10 +54,12 @@ struct ContentView: View {
                 
                 if let selectedRaga = selectedRaga {
                     
-                    RagaView(raga: selectedRaga)
-                        .frame(width: geometry.size.width/4, height: geometry.size.height, alignment: .center)
-                        .offset(x: geometry.size.width/5, y: 0)
-                    
+                    VStack {
+                        RagaView(raga: selectedRaga)
+                            .frame(width: geometry.size.width/4, height: geometry.size.height/5, alignment: .center)
+                            .offset(x: geometry.size.width/5, y: 0)
+                        
+                    }
                 }
     
             }

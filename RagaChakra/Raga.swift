@@ -26,5 +26,11 @@ struct Raga: Codable, Identifiable {
     let arohana: String
     let avarohana: String
     
+    var allNotes: [String] {
+        
+        get {
+            (arohana + " " + avarohana).components(separatedBy: " ")
+        }
+    }
 }
 
