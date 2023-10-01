@@ -10,6 +10,7 @@ import Foundation
 struct Raga: Codable, Identifiable {
     
     enum CodingKeys: CodingKey {
+        case id
         case name
         case mela_raga
         case mela_num

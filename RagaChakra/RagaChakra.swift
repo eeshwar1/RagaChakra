@@ -26,9 +26,7 @@ struct RagaChakra: View {
                         .zIndex(selected[raga.name] == true ? 5: 1)
                         .onTapGesture {
                             
-                            self.action(raga)
-                            selected.keys.forEach{ selected[$0] = false }
-                            selected[raga.name] = true
+                            selectRaga(raga: raga)
                                                 
                         }
                     
@@ -44,5 +42,32 @@ struct RagaChakra: View {
             
         }
     }
+    
+    func selectMelaRaga(raga: Raga) {
+        
+        self.action(raga)
+        selected.keys.forEach{ selected[$0] = false }
+        selected[raga.name] = true
+        
+    }
+    
+    func selectRaga(raga: Raga) {
+        
+        if (raga.mela_raga == "") {
+            
+            selectMelaRaga(raga: raga)
+            
+        } else {
+            
+            let mela_raga = melaRagas.filter { $0.name == raga.mela_raga }
+            
+            if mela_raga.count > 0 {
+                selectMelaRaga(raga: mela_raga[0])
+            }
+            
+        }
+        
+    }
+
     
 }
