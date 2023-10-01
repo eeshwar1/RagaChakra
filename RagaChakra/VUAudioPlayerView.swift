@@ -43,7 +43,7 @@ struct VUAudioPlayerView: View {
                         Image(systemName: "play.circle.fill")
                             .resizable()
                             .aspectRatio(contentMode: .fill)
-                            .foregroundColor(.black)
+                            .foregroundColor(.primary)
                         
                     }
                     .padding(10)

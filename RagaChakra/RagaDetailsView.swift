@@ -45,7 +45,7 @@ struct RagaDetailsView: View {
                                     .font(.system(size: geometry.size.height > geometry.size.width ? geometry.size.width * 0.04: geometry.size.height * 0.04))
                                     .foregroundStyle(.white)
                                     .padding(5)
-                                    .background(Color.brown).cornerRadius(5)
+                                    .background(selectedRaga?.name == janyaRaga.name ? Color.green: Color.brown).cornerRadius(5)
                                     .shadow(color: Color.black, radius: 2, x: 2, y: -2)
                                     
                                     .onTapGesture {
