@@ -50,6 +50,8 @@ struct RagaDetailsView: View {
                                     
                                     selectedRaga = raga
                                 })
+                                .frame(height: 20)
+                                .padding(5)
                                     
                             }
                             

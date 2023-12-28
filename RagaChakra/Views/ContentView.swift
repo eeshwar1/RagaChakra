@@ -30,7 +30,7 @@ struct ContentView: View {
                     
                     RagaChakraView(melaRagas: melaRagas, selectedRaga: $selectedRaga, action: self.ragaAction(raga:))
                         .frame(width: geometry.size.width/4 - 20, height: geometry.size.width/4 - 20, alignment: .center)
-                        .padding(10)
+                        .padding(20)
                         .shadow(color: Color.black, radius: 1, x: 1, y: -1)
         
                     RagaDetailsView(raga: self.$raga, janyaRagas: self.janyaRagas, selectedRaga: $selectedRaga)
@@ -84,16 +84,9 @@ struct ContentView: View {
     }
     
     
-    func melaRagaAction(raga: Raga) {
-        
-        self.raga =  raga
-        self.janyaRagas = Array(ragas.filter( { $0.mela_raga == raga.name } ).map( {$0} ))
-        self.selectedRaga = nil
-        
-    }
-    
     func ragaAction(raga: Raga) {
         
+        self.selectedRaga = raga
         if raga.mela_raga == "" {
             
             self.melaRagaAction(raga: raga)
@@ -105,16 +98,23 @@ struct ContentView: View {
             if mela_raga.count > 0 {
                 self.melaRagaAction(raga: mela_raga.first!)
             }
-            self.selectedRaga = raga
+            
             
         }
         
     }
+    
+    func melaRagaAction(raga: Raga) {
+        
+        self.raga =  raga
+        self.janyaRagas = Array(ragas.filter( { $0.mela_raga == raga.name } ).map( {$0} ))
+             
+    }
 }
 
 
-//#Preview {
-//    
-//
-//    ContentView(raga: .constant(Raga(name: "Kanakāngi(Janaka raga)", mela_raga: "", mela_num: "1", link: "https://en.wikipedia.org/wiki/Kanakangi", arohana: "S R1 G1 M1 P D1 N1 Ṡ", avarohana: "Ṡ N1 D1 P M1 G1 R1 S")), selectedRaga: .constant(Raga(name: "Kanakāngi(Janaka raga)", mela_raga: "", mela_num: "1", link: "https://en.wikipedia.org/wiki/Kanakangi", arohana: "S R1 G1 M1 P D1 N1 Ṡ", avarohana: "Ṡ N1 D1 P M1 G1 R1 S")))
-//}
+#Preview {
+    
+
+    ContentView(raga: (Raga(name: "Kanakāngi(Janaka raga)", mela_raga: "", mela_num: "1", link: "https://en.wikipedia.org/wiki/Kanakangi", arohana: "S R1 G1 M1 P D1 N1 Ṡ", avarohana: "Ṡ N1 D1 P M1 G1 R1 S")))
+}

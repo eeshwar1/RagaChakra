@@ -108,6 +108,7 @@
 		652CDCBC2B3DF7D50073C55A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				65F015C42ABE94660092D32D /* ContentView.swift */,
 				65E9FC752AC3D6A0004C8E57 /* RagaView.swift */,
 				65C26C942AC0B161003091CA /* RagaDetailsView.swift */,
 				652CDCB92B38B0B90073C55A /* RagaBlockView.swift */,
@@ -182,7 +183,6 @@
 				652CDCBC2B3DF7D50073C55A /* Views */,
 				652CDCBB2B3DF79F0073C55A /* Audio */,
 				65F015C22ABE94660092D32D /* RagaChakraApp.swift */,
-				65F015C42ABE94660092D32D /* ContentView.swift */,
 				65E9FCDA2AC9F4AD004C8E57 /* String+Extensions.swift */,
 				65E9FC772AC4AF04004C8E57 /* AppDelegate.swift */,
 				65C26C8C2ABF7739003091CA /* PieSegment.swift */,
