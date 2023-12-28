@@ -19,12 +19,17 @@ struct RagaDetailsView: View {
         GeometryReader { geometry in
         
             VStack {
-                VStack {
+            
+                if let raga = raga {
                     
-                    RagaView(raga: raga)
-                    
+                    RagaBlockView(raga: raga, selectedRaga: $selectedRaga, tapAction: { raga in
+                        
+                        selectedRaga = raga
+                    })
+                    .frame(height: 20)
+                    .padding(10)
                 }
-                .padding(10)
+               
                 
                 if let janyaRagas = janyaRagas {
                     
@@ -41,23 +46,18 @@ struct RagaDetailsView: View {
                             
                             ForEach(janyaRagas) { janyaRaga in
                                 
-                                Text(janyaRaga.name)
-                                    .font(.system(size: geometry.size.height > geometry.size.width ? geometry.size.width * 0.04: geometry.size.height * 0.04))
-                                    .foregroundStyle(.white)
-                                    .padding(5)
-                                    .background(selectedRaga?.name == janyaRaga.name ? Color.green: Color.brown).cornerRadius(5)
-                                    .shadow(color: Color.black, radius: 2, x: 2, y: -2)
+                                RagaBlockView(raga: janyaRaga, selectedRaga: $selectedRaga, tapAction: { raga in
                                     
-                                    .onTapGesture {
-                                        selectedRaga = janyaRaga
-                                    }
+                                    selectedRaga = raga
+                                })
                                     
                             }
                             
                         }
+                        
                        
                     }
-                    .padding(10)
+                    .padding(20)
 
                 }
                 .scrollDisabled(false)
@@ -74,7 +74,7 @@ struct RagaDetailsView: View {
         }
         
     }
-    
+         
  
 }
 

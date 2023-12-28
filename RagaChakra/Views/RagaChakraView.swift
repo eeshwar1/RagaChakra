@@ -7,12 +7,14 @@
 
 import SwiftUI
 
-struct RagaChakra: View {
+struct RagaChakraView: View {
     
     var melaRagas: [Raga] = []
+    @Binding var selectedRaga: Raga?
     var action: (Raga) -> ()
     
     @State var selected: [String: Bool] =  [:]
+ 
     
     var body: some View {
         
@@ -22,7 +24,7 @@ struct RagaChakra: View {
                 
                 ForEach(Array(melaRagas.enumerated()), id:\.offset) { index, raga in
                     
-                    RagaPieSegment(angle: .degrees(Double( index * 5)), raga: raga, color: selected[raga.name] == true ? .green: (index%2 == 0 ? .gray : .brown))
+                    RagaPieSegmentView(angle: .degrees(Double( index * 5)), raga: raga, color: selected[raga.name] == true ? .green: (index%2 == 0 ? .gray : .brown))
                         .zIndex(selected[raga.name] == true ? 5: 1)
                         .onTapGesture {
                             
@@ -46,6 +48,7 @@ struct RagaChakra: View {
     func selectMelaRaga(raga: Raga) {
         
         self.action(raga)
+        self.selectedRaga = raga
         selected.keys.forEach{ selected[$0] = false }
         selected[raga.name] = true
         

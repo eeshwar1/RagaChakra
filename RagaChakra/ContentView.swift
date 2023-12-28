@@ -28,7 +28,7 @@ struct ContentView: View {
                 
                 HStack(spacing: 20) {
                     
-                    RagaChakra(melaRagas: melaRagas, action: self.ragaAction(raga:))
+                    RagaChakraView(melaRagas: melaRagas, selectedRaga: $selectedRaga, action: self.ragaAction(raga:))
                         .frame(width: geometry.size.width/4 - 20, height: geometry.size.width/4 - 20, alignment: .center)
                         .padding(10)
                         .shadow(color: Color.black, radius: 1, x: 1, y: -1)
@@ -113,8 +113,8 @@ struct ContentView: View {
 }
 
 
-#Preview {
-    
-
-    ContentView(raga: Raga(name: "Kanakāngi(Janaka raga)", mela_raga: "", mela_num: "1", link: "https://en.wikipedia.org/wiki/Kanakangi", arohana: "S R1 G1 M1 P D1 N1 Ṡ", avarohana: "Ṡ N1 D1 P M1 G1 R1 S"))
-}
+//#Preview {
+//    
+//
+//    ContentView(raga: .constant(Raga(name: "Kanakāngi(Janaka raga)", mela_raga: "", mela_num: "1", link: "https://en.wikipedia.org/wiki/Kanakangi", arohana: "S R1 G1 M1 P D1 N1 Ṡ", avarohana: "Ṡ N1 D1 P M1 G1 R1 S")), selectedRaga: .constant(Raga(name: "Kanakāngi(Janaka raga)", mela_raga: "", mela_num: "1", link: "https://en.wikipedia.org/wiki/Kanakangi", arohana: "S R1 G1 M1 P D1 N1 Ṡ", avarohana: "Ṡ N1 D1 P M1 G1 R1 S")))
+//}

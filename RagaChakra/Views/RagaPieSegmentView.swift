@@ -1,5 +1,5 @@
 //
-//  RagaPieSegment.swift
+//  RagaPieSegmentView.swift
 //  RagaChakra
 //
 //  Created by Venkateswaran Venkatakrishnan on 9/28/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RagaPieSegment: View {
+struct RagaPieSegmentView: View {
     
     var angle: Angle
     var raga: Raga
