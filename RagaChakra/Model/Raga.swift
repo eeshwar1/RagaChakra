@@ -35,6 +35,10 @@ struct Raga: Codable, Identifiable, Equatable {
     
     }
     
+    var isMela: Bool {
+        
+        return self.mela_raga == ""
+    }
     static func ==(lhs: Raga, rhs: Raga) -> Bool {
        return lhs.name == rhs.name
     }

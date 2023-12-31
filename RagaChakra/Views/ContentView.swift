@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @State var ragas = ReadData().ragas
-    @State var melaRagas = ReadData().ragas.filter( {$0.mela_raga == ""})
+    @State var melaRagas = ReadData().ragas.filter( {$0.isMela})
     
     @State var raga: Raga?
     @State var janyaRagas: [Raga]?
@@ -42,6 +42,7 @@ struct ContentView: View {
                     if let selectedRaga = selectedRaga {
                         
                         VStack {
+                            
                             RagaView(raga: selectedRaga)
                                 .frame(width: geometry.size.width/5, height: geometry.size.height/5, alignment: .center)
                                 .offset(x: geometry.size.width/5, y: 0)
@@ -56,25 +57,44 @@ struct ContentView: View {
             }
         .searchable(text: $searchText) {
             
-            ForEach(searchResults, id: \.id) { result in
-                
-                Text("\(result.name)").searchCompletion(result)
-                
-                    .onTapGesture {
-                        
-                        self.ragaAction(raga: result)
-                        
-                    }
+          
+                Text("\(searchResults.count) ragas")
+                    .italic()
+                    .foregroundStyle(.gray)
+                Rectangle()
+                    .frame(height: 1)
+                    .foregroundColor(.gray.opacity(0.7))
+                ForEach(searchResults, id: \.id) { result in
+                    
+                    
+                    Text("\(result.name)").searchCompletion(result)
+                    
+                    
+                        .fontWeight(result.isMela ? .bold : .none)
+                        .frame(width: 280, alignment: .leading)
+                        .padding(5)
+                        .contentShape(RoundedRectangle(cornerSize: CGSize(width: 5, height: 5)))
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 5)
+                                .stroke(Color.gray, lineWidth: 0.5)
+                                
+                        )
+                        .onTapGesture {
+                            
+                            self.ragaAction(raga: result)
+                            
+                        }
                 }
-
-        }
+                
+            }
+        
     }
     
     var searchResults: [Raga] {
         
            if searchText.isEmpty {
                
-               return []
+               return ragas
 
            } else {
                
@@ -87,7 +107,7 @@ struct ContentView: View {
     func ragaAction(raga: Raga) {
         
         self.selectedRaga = raga
-        if raga.mela_raga == "" {
+        if raga.isMela {
             
             self.melaRagaAction(raga: raga)
             

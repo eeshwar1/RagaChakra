@@ -27,7 +27,7 @@ struct RagaDetailsView: View {
                         selectedRaga = raga
                     })
                     .frame(height: 20)
-                    .padding(10)
+                    .padding(25)
                 }
                
                 
