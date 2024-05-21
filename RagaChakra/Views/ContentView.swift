@@ -72,7 +72,7 @@ struct ContentView: View {
                     
                         .fontWeight(result.isMela ? .bold : .none)
                         .frame(width: 280, alignment: .leading)
-                        .padding(5)
+                        .padding(2)
                         .contentShape(RoundedRectangle(cornerSize: CGSize(width: 5, height: 5)))
                         .overlay(
                             RoundedRectangle(cornerRadius: 5)
@@ -86,7 +86,7 @@ struct ContentView: View {
                         }
                 }
                 
-            }
+        }
         
     }
     
