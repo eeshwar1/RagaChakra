@@ -7,9 +7,10 @@
 
 import Foundation
 
-struct Raga: Codable, Identifiable {
+struct Raga: Codable, Identifiable, Equatable {
     
     enum CodingKeys: CodingKey {
+        case id
         case name
         case mela_raga
         case mela_num
@@ -31,6 +32,15 @@ struct Raga: Codable, Identifiable {
         get {
             (arohana + " " + avarohana).components(separatedBy: " ")
         }
+    
+    }
+    
+    var isMela: Bool {
+        
+        return self.mela_raga == ""
+    }
+    static func ==(lhs: Raga, rhs: Raga) -> Bool {
+       return lhs.name == rhs.name
     }
 }
 
