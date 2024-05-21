@@ -2,5 +2,8 @@
 
 Browse Carnatic Music Ragas Details, hear the Arohana Avarohana notes 
 
-<img width="1552" alt="RagaChakra1" src="https://github.com/eeshwar1/RagaChakra/assets/1115336/b63757d8-80fe-4084-8a97-3b13a792cc60">
-<img width="1552" alt="RagaChakra2" src="https://github.com/eeshwar1/RagaChakra/assets/1115336/633d1e0d-a8c6-4f60-8d4b-c35c3de224a6">
+<img width="1552" alt="Screenshot 2024-05-21 at 11 38 42 AM" src="https://github.com/eeshwar1/RagaChakra/assets/1115336/e068d5f5-e727-4790-a886-aba34128d197">
+
+## Search for a raga
+
+<img width="1436" alt="Screenshot 2024-05-21 at 11 40 25 AM" src="https://github.com/eeshwar1/RagaChakra/assets/1115336/edd528f3-a513-4e04-9540-3cdd28ea1e29">
